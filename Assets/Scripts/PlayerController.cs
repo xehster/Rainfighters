@@ -15,11 +15,12 @@ public class PlayerController : MonoBehaviour
     public float horisontalInput;
     public bool jumping;
     public bool isOnGround;
+    public bool lookingLeft;
 
     public float verticalInput;
     public Rigidbody2D rb;
     public WeaponController wc;
-    
+
     // Start is called before the first frame update
     void Start()
     {
@@ -45,8 +46,26 @@ public class PlayerController : MonoBehaviour
     {
         horisontalInput = Input.GetAxis("Horizontal");
         verticalInput = Input.GetAxis("Vertical");
+        
+        if (horisontalInput < 0f && lookingLeft == false)
+        {
+            transform.Rotate(0f, 180f, 0f);
+            lookingLeft = true;
+        }
+        else if(horisontalInput > 0f && lookingLeft)
+        {
+            transform.Rotate(0f, 180f, 0f);
+            lookingLeft = false;
+        }
 
-        transform.Translate(Vector2.right * Time.deltaTime * runningSpeed * horisontalInput);
+        if (lookingLeft == false)
+        {
+            transform.Translate(Vector2.right * Time.deltaTime * runningSpeed * horisontalInput);
+        }
+        else
+        {
+            transform.Translate(Vector2.right * Time.deltaTime * runningSpeed * -horisontalInput);
+        }
     }
 
     void Jump()
@@ -99,6 +118,7 @@ public class PlayerController : MonoBehaviour
             isOnGround = false;
         }
     }
+    
     
 
 }

@@ -1,18 +1,28 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class WeaponController : MonoBehaviour
 {
-    public float bulletSpeed = 100;
     public Transform firePoint;
     public BulletView bulletView;
+
+    private void Start()
+    {
+
+    }
+
     public void Shoot()
     {
         if (Input.GetKeyDown(KeyCode.E))
         {
             var bullet = Instantiate(bulletView, firePoint.position, firePoint.rotation);
-            bullet.SetBulletData(bulletSpeed);
+
+            //Vector2 direction = Vector2.right;
+            //Ray ray = new Ray(firePoint.transform.position, transform.TransformDirection(direction * 100));
+            //Debug.DrawRay(firePoint.transform.position, transform.TransformDirection(direction * 100));
+
         }
     }
 }
