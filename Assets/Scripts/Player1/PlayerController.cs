@@ -45,8 +45,7 @@ public class PlayerController : MonoBehaviour
     //makes player walk left and right
     {
         horisontalInput = Input.GetAxis("Horizontal");
-        verticalInput = Input.GetAxis("Vertical");
-        
+
         if (horisontalInput < 0f && lookingLeft == false)
         {
             transform.Rotate(0f, 180f, 0f);
@@ -71,7 +70,7 @@ public class PlayerController : MonoBehaviour
     void Jump()
     {
         //jumping
-        if (Input.GetKey(KeyCode.Space) && jumping && isOnGround)
+        if (Input.GetKey(KeyCode.W) && jumping && isOnGround)
         {
             rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
         }
@@ -81,7 +80,7 @@ public class PlayerController : MonoBehaviour
     void JumpControl()
     {
         //setting a jump timer for a longer jump if holding Space
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.W))
         {
             jumping = true;
             jumpTime = 0;
@@ -94,7 +93,7 @@ public class PlayerController : MonoBehaviour
         }
 
         //stopping jump timer
-        if (Input.GetKeyUp(KeyCode.Space) | jumpTime >= buttonHoldTime)
+        if (Input.GetKeyUp(KeyCode.W) | jumpTime >= buttonHoldTime)
         {
             jumping = false;
         }

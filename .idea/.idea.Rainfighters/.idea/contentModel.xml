@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\emera\.Rider2019.2\system\extResources" t="IncludeRecursive" />
@@ -8,9 +8,14 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="BulletView.cs" t="Include" />
-          <e p="PlayerController.cs" t="Include" />
-          <e p="PlayerHealth.cs" t="Include" />
-          <e p="WeaponController.cs" t="Include" />
+          <e p="Player1" t="Include">
+            <e p="PlayerController.cs" t="Include" />
+            <e p="WeaponController.cs" t="Include" />
+          </e>
+          <e p="Player2" t="Include">
+            <e p="Player2Controller.cs" t="Include" />
+            <e p="Weapon2Controller.cs" t="Include" />
+          </e>
         </e>
       </e>
       <e p="obj" t="ExcludeRecursive" />
