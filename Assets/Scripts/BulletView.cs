@@ -9,6 +9,13 @@ public class BulletView : MonoBehaviour
 {
     public float projectileSpeed = 20f;
     private Vector3 bulletPrevPos;
+    [SerializeField] private Animator anim;
+
+    public void Player2BulletAnimation()
+    {
+        anim.SetTrigger("isPlayer2");
+        Debug.Log("trigger is set");
+    }
 
     private void Start()
     {
@@ -26,14 +33,22 @@ public class BulletView : MonoBehaviour
         transform.Translate(Vector2.right * Time.deltaTime * projectileSpeed);
 
         bulletPrevPos = transform.position;
-        transform.Translate(0, 0, projectileSpeed * Time.deltaTime);
 
         RaycastHit2D[] hits = Physics2D.RaycastAll(bulletPrevPos, (transform.position - bulletPrevPos).normalized, (transform.position - bulletPrevPos).magnitude);
         for (int i = 0; i < hits.Length; i++)
         {
             Debug.Log(hits[i].collider.gameObject.name);
-            if (hits[i].collider.gameObject.CompareTag("Player"))
+            if (hits[i].collider.gameObject.CompareTag("Player1"))
             {
+                hits[i].collider.gameObject.GetComponent<PlayerController>().HitByRay();
+                Destroy(hits[i].collider.gameObject);
+                StartCoroutine(RestartScene());
+            }
+            
+            Debug.Log(hits[i].collider.gameObject.name);
+            if (hits[i].collider.gameObject.CompareTag("Player2"))
+            {
+                hits[i].collider.gameObject.GetComponent<Player2Controller>().HitByRay();
                 Destroy(hits[i].collider.gameObject);
                 StartCoroutine(RestartScene());
             }

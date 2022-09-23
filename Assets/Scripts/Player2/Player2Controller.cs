@@ -1,11 +1,10 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Player2Controller : MonoBehaviour
 {
 
+    public Action OnGetHit;
     public float runningSpeed = 10;
 
     public float jumpForce = 10;
@@ -27,12 +26,16 @@ public class Player2Controller : MonoBehaviour
 
     }
 
+    public void HitByRay()
+    {
+        OnGetHit.Invoke();
+    }
+
     // Update is called once per frame
     void FixedUpdate()
     {
         Jump();
         Walk();
-
     }
 
     private void Update()
@@ -46,18 +49,18 @@ public class Player2Controller : MonoBehaviour
     {
         horisontalInput = Input.GetAxis("HorizontalPlayer2");
 
-        if (horisontalInput < 0f && lookingLeft == false)
+        if (horisontalInput > 0f && lookingLeft == false)
         {
             transform.Rotate(0f, 180f, 0f);
             lookingLeft = true;
         }
-        else if(horisontalInput > 0f && lookingLeft)
+        else if(horisontalInput < 0f && lookingLeft)
         {
             transform.Rotate(0f, 180f, 0f);
             lookingLeft = false;
         }
 
-        if (lookingLeft == false)
+        if (lookingLeft == true)
         {
             transform.Translate(Vector2.right * Time.deltaTime * runningSpeed * horisontalInput);
         }

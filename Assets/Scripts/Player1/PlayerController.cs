@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-
+    public Action OnGetHit;
     public float runningSpeed = 10;
 
     public float jumpForce = 10;
@@ -21,6 +21,8 @@ public class PlayerController : MonoBehaviour
     public Rigidbody2D rb;
     public WeaponController wc;
 
+    public KeyCode JumpButton;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -32,8 +34,13 @@ public class PlayerController : MonoBehaviour
     {
         Jump();
         Walk();
-
     }
+    
+    public void HitByRay()
+    {
+        OnGetHit.Invoke();
+    }
+
 
     private void Update()
     {
