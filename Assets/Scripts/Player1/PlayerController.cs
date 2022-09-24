@@ -22,6 +22,7 @@ public class PlayerController : MonoBehaviour
     public WeaponController wc;
 
     public KeyCode JumpButton;
+    public Animator anim;
 
     // Start is called before the first frame update
     void Start()
@@ -46,27 +47,32 @@ public class PlayerController : MonoBehaviour
     {
         JumpControl();
         wc.Shoot();
+        AnimUpdate();
     }
 
     void Walk()
     //makes player walk left and right
     {
         horisontalInput = Input.GetAxis("Horizontal");
+        
 
         if (horisontalInput < 0f && lookingLeft == false)
         {
             transform.Rotate(0f, 180f, 0f);
             lookingLeft = true;
+
         }
         else if(horisontalInput > 0f && lookingLeft)
         {
             transform.Rotate(0f, 180f, 0f);
             lookingLeft = false;
+
         }
+
 
         if (lookingLeft == false)
         {
-            transform.Translate(Vector2.right * Time.deltaTime * runningSpeed * horisontalInput);
+            transform.Translate(Vector2.right * Time.deltaTime * runningSpeed * horisontalInput); 
         }
         else
         {
@@ -123,6 +129,36 @@ public class PlayerController : MonoBehaviour
         {
             isOnGround = false;
         }
+    }
+
+    void AnimUpdate()
+    {
+        horisontalInput = Input.GetAxis("Horizontal");
+        
+        //running animation state = 1
+        //idle animation state = 0
+        if (horisontalInput == 0)
+        {
+            anim.SetInteger("animState",0);
+
+        }
+        else
+        {
+            anim.SetInteger("animState",1);
+        }
+        
+        //jumping animation state = 2
+        if (rb.velocity.y > 0.0f)
+        {
+            anim.SetInteger("animState", 2);
+        }
+        //falling animation state = 3
+        else if (rb.velocity.y < 0.0f)
+        {
+            anim.SetInteger("animState", 3);
+        }
+
+
     }
     
     

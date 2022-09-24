@@ -4,15 +4,24 @@
     <list default="true" id="4105d3fd-2135-4c4b-a0c1-e9e67284bed7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Rainfighters/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Rainfighters/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Rainfighters/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Rainfighters/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Player1/Player1.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Player1/Player1.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Player1/Player1_Falling.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Player1/Player1_Falling.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Player1/Player1_Jumping.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Player1/Player1_Jumping.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Player1/Player1_Running.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Player1/Player1_Running.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Player2/Player2.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Player2/Player2.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Player2/Player2_Falling.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Player2/Player2_Falling.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Player2/Player2_Jumping.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Player2/Player2_Jumping.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Player2/Player2_Running.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Player2/Player2_Running.anim" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Bullet.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Bullet.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player2.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BulletView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BulletView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BulletView.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BulletView.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player1/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player1/PlayerController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player2/Player2Controller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player2/Player2Controller.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player2/Weapon2Controller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player2/Weapon2Controller.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScoreManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScoreManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScoreUIManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScoreUIManager.cs.meta" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,15 +36,15 @@
     <setting file="file://$PROJECT_DIR$/../KOTEK/Assets/Scripts/Player/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../KOTEK/Assets/Scripts/Player/PlayerLife.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player1/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Bullet/BulletView.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../KOTEK/Assets/Scripts/Player/Weapon.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../KOTEK/Assets/Scripts/Player/Bullet.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player2/Player2Controller.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScoreManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ProjectSettings/InputManager.asset" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScoreUIManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Rain/RainCreation.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player2/Weapon2Controller.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Rain/RainController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Prefabs/Bullet.prefab" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BulletView.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C6B52566-F59B-49FC-861A-7812A1EA2F6B/5a/c9057eb0/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -47,11 +56,13 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/WeaponController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScoreUIManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player1/PlayerController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ScoreManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player2/Player2Controller.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player2/Weapon2Controller.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BulletView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ScoreManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player1/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player2/Player2Controller.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Rain/RainCreation.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Rain/RainController.cs" />
       </list>
     </option>
   </component>
@@ -89,10 +100,10 @@
       <option name="userSelectedPid" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" pid="18584">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" pid="3740">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="18584" />
+      <option name="pid" value="3740" />
       <option name="userSelectedPid" value="false" />
       <method v="2" />
     </configuration>
@@ -110,7 +121,8 @@
       <workItem from="1663762827303" duration="22687000" />
       <workItem from="1663850745425" duration="8132000" />
       <workItem from="1663877188798" duration="2218000" />
-      <workItem from="1663936213042" duration="2746000" />
+      <workItem from="1663936213042" duration="3570000" />
+      <workItem from="1664018137659" duration="9435000" />
     </task>
     <servers />
   </component>

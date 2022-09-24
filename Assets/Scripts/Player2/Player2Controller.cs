@@ -19,6 +19,7 @@ public class Player2Controller : MonoBehaviour
     public float verticalInput;
     public Rigidbody2D rb;
     public Weapon2Controller wc;
+    public Animator anim;
 
     // Start is called before the first frame update
     void Start()
@@ -42,6 +43,7 @@ public class Player2Controller : MonoBehaviour
     {
         JumpControl();
         wc.Shoot();
+        AnimUpdate();
     }
 
     void Walk()
@@ -120,7 +122,34 @@ public class Player2Controller : MonoBehaviour
             isOnGround = false;
         }
     }
-    
-    
+
+    void AnimUpdate()
+    {
+        horisontalInput = Input.GetAxis("HorizontalPlayer2");
+
+        //running animation state = 1
+        //idle animation state = 0
+        if (horisontalInput == 0)
+        {
+            anim.SetInteger("animState", 0);
+
+        }
+        else
+        {
+            anim.SetInteger("animState", 1);
+        }
+
+        //jumping animation state = 2
+        if (rb.velocity.y > 0.0f)
+        {
+            anim.SetInteger("animState", 2);
+        }
+        //falling animation state = 3
+        else if (rb.velocity.y < 0.0f)
+        {
+            anim.SetInteger("animState", 3);
+        }
+
+    }
 
 }
