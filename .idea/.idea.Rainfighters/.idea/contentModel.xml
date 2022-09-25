@@ -10,6 +10,12 @@
           <e p="Bullet" t="Include">
             <e p="BulletView.cs" t="Include" />
           </e>
+          <e p="EndScene" t="Include">
+            <e p="EndSceneController.cs" t="Include" />
+          </e>
+          <e p="Menu" t="Include">
+            <e p="ButtonsController.cs" t="Include" />
+          </e>
           <e p="Player1" t="Include">
             <e p="PlayerController.cs" t="Include" />
             <e p="WeaponController.cs" t="Include" />
@@ -25,6 +31,10 @@
           <e p="Score" t="Include">
             <e p="ScoreManager.cs" t="Include" />
             <e p="ScoreUIManager.cs" t="Include" />
+          </e>
+          <e p="SliderMenu" t="Include">
+            <e p="PlayButtonSliderScene.cs" t="Include" />
+            <e p="SliderController.cs" t="Include" />
           </e>
         </e>
         <e p="TextMesh Pro" t="Include">

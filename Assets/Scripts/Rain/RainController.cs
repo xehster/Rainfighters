@@ -23,7 +23,10 @@ public class RainController : MonoBehaviour
     void RainRayShooting()
     {
         transform.Translate(Vector2.down * Time.deltaTime * projectileSpeed);
-        Debug.Log(transform.position);
+        if (transform.position.y < -15f)
+        {
+            Destroy(gameObject);
+        }
 
         bulletPrevPos = transform.position;
 
@@ -34,26 +37,18 @@ public class RainController : MonoBehaviour
             {
                 hits[i].collider.gameObject.GetComponent<PlayerController>().HitByRay();
                 Destroy(hits[i].collider.gameObject);
-                StartCoroutine(RestartScene());
             }
             
-            Debug.Log(hits[i].collider.gameObject.name);
             if (hits[i].collider.gameObject.CompareTag("Player2"))
             {
                 hits[i].collider.gameObject.GetComponent<Player2Controller>().HitByRay();
                 Destroy(hits[i].collider.gameObject);
-                StartCoroutine(RestartScene());
             }
 
         }
         Debug.DrawLine(transform.position, bulletPrevPos);
     }
     
-    IEnumerator RestartScene()
-    {
-        yield return new WaitForSeconds(1.0f);
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-    }
 
     IEnumerator RainSpeedIncrease()
     {

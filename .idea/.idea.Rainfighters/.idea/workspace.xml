@@ -4,24 +4,12 @@
     <list default="true" id="4105d3fd-2135-4c4b-a0c1-e9e67284bed7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Rainfighters/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Rainfighters/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Rainfighters/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Rainfighters/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Player1/Player1.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Player1/Player1.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Player1/Player1_Falling.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Player1/Player1_Falling.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Player1/Player1_Jumping.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Player1/Player1_Jumping.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Player1/Player1_Running.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Player1/Player1_Running.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Player2/Player2.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Player2/Player2.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Player2/Player2_Falling.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Player2/Player2_Falling.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Player2/Player2_Jumping.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Player2/Player2_Jumping.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Player2/Player2_Running.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Player2/Player2_Running.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Bullet.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Bullet.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BulletView.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BulletView.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player1/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player1/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player2/Player2Controller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player2/Player2Controller.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScoreManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScoreManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScoreUIManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScoreUIManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bullet/BulletView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Bullet/BulletView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Rain/RainController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Rain/RainController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Score/ScoreManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Score/ScoreManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,15 +21,21 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/../KOTEK/Assets/Scripts/Player/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../KOTEK/Assets/Scripts/Player/PlayerMovement.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EndScene/EndSceneController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../KOTEK/Assets/Scripts/Player/PlayerLife.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player1/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Bullet/BulletView.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../KOTEK/Assets/Scripts/Player/Weapon.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Score/ScoreManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../KOTEK/Assets/Scripts/Player/Bullet.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player2/Player2Controller.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Menu/ButtonsController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SliderMenu/SliderController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SliderMenu/PlayButtonSliderScene.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ProjectSettings/InputManager.asset" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Rain/RainCreation.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C6B52566-F59B-49FC-861A-7812A1EA2F6B/f9/dba0133b/SetupCoroutine.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player2/Weapon2Controller.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Rain/RainController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Prefabs/Bullet.prefab" root0="FORCE_HIGHLIGHTING" />
@@ -62,7 +56,14 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Player1/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player2/Player2Controller.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Rain/RainCreation.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Menu/ButtonsController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Slider/SliderController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Rain/RainController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Bullet/BulletView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SliderMenu/PlayButtonSliderScene.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SliderMenu/SliderController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Score/ScoreManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EndScene/EndSceneController.cs" />
       </list>
     </option>
   </component>
@@ -100,10 +101,10 @@
       <option name="userSelectedPid" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" pid="3740">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" pid="26300">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="3740" />
+      <option name="pid" value="26300" />
       <option name="userSelectedPid" value="false" />
       <method v="2" />
     </configuration>
@@ -122,7 +123,9 @@
       <workItem from="1663850745425" duration="8132000" />
       <workItem from="1663877188798" duration="2218000" />
       <workItem from="1663936213042" duration="3570000" />
-      <workItem from="1664018137659" duration="9435000" />
+      <workItem from="1664018137659" duration="9532000" />
+      <workItem from="1664048358233" duration="3645000" />
+      <workItem from="1664096465039" duration="3870000" />
     </task>
     <servers />
   </component>
