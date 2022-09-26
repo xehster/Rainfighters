@@ -29,7 +29,7 @@ public class BulletView : MonoBehaviour
 
     void RayShooting()
     {
-        transform.Translate(Vector2.right * Time.deltaTime * projectileSpeed);
+        transform.Translate(Vector2.right * Time.fixedDeltaTime * projectileSpeed);
         if (transform.position.x > 35f | transform.position.x < -35f)
         {
             Destroy(gameObject);

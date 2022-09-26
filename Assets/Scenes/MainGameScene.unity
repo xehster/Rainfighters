@@ -497,6 +497,7 @@ MonoBehaviour:
   player1Score: 0
   player2Score: 0
   isRoundEnded: 0
+  roundsEnded: 0
 --- !u!4 &971856799
 Transform:
   m_ObjectHideFlags: 0
@@ -984,6 +985,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 345645697276936144, guid: 10a3590dfdfd1c34caded7351dbabc20, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 345645697276936146, guid: 10a3590dfdfd1c34caded7351dbabc20, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -1117,6 +1122,10 @@ PrefabInstance:
       propertyPath: anim
       value: 
       objectReference: {fileID: 1086111051}
+    - target: {fileID: 6190263902010535400, guid: f7109b4ebea79604d8fae21b98496375, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6190263902010535401, guid: f7109b4ebea79604d8fae21b98496375, type: 3}
       propertyPath: m_Name
       value: Player1

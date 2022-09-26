@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4105d3fd-2135-4c4b-a0c1-e9e67284bed7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Rainfighters/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Rainfighters/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Rainfighters/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Rainfighters/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bullet/BulletView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Bullet/BulletView.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Rain/RainController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Rain/RainController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Score/ScoreManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Score/ScoreManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,6 +29,7 @@
     <setting file="file://$PROJECT_DIR$/ProjectSettings/InputManager.asset" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Rain/RainCreation.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C6B52566-F59B-49FC-861A-7812A1EA2F6B/f9/dba0133b/SetupCoroutine.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player1/WeaponController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player2/Weapon2Controller.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Rain/RainController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Prefabs/Bullet.prefab" root0="FORCE_HIGHLIGHTING" />
@@ -53,17 +47,17 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Player2/Weapon2Controller.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BulletView.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScoreManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player1/PlayerController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player2/Player2Controller.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Rain/RainCreation.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu/ButtonsController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Slider/SliderController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Rain/RainController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Bullet/BulletView.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SliderMenu/PlayButtonSliderScene.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SliderMenu/SliderController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Score/ScoreManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EndScene/EndSceneController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player2/Player2Controller.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player1/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Bullet/BulletView.cs" />
       </list>
     </option>
   </component>
@@ -126,6 +120,7 @@
       <workItem from="1664018137659" duration="9532000" />
       <workItem from="1664048358233" duration="3645000" />
       <workItem from="1664096465039" duration="3870000" />
+      <workItem from="1664204593390" duration="806000" />
     </task>
     <servers />
   </component>
